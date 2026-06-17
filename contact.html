@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - FlexBiz</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/darkmode.css">
+</head>
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar navbar-expand-lg bg-white py-3 sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3" href="index.html">FlexBiz</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portofolio.html">Portofolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
+                <a href="contact.html" class="btn btn-primary px-4">Get Started</a>
+                
+                <!-- Dark Mode Toggle -->
+                <button class="btn btn-outline-secondary ms-2" id="darkModeToggle" type="button">
+                    <i class="bi bi-moon-fill"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="contact-section py-5">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge">Contact Us</span>
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-description">
+                    Have a project in mind? Drop us a message and we'll get back to you.
+                </p>
+            </div>
+
+            <div class="row mt-5 g-5 align-items-center">
+                <!-- Contact Info -->
+                <div class="col-lg-5">
+                    <div class="contact-info">
+                        <div class="d-flex gap-3 mb-4">
+                            <div class="contact-icon-box">
+                                <i class="bi bi-envelope-fill"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold">Email</h5>
+                                <p class="text-muted mb-0">hello@flexbiz.com</p>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-3 mb-4">
+                            <div class="contact-icon-box">
+                                <i class="bi bi-telephone-fill"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold">Phone</h5>
+                                <p class="text-muted mb-0">+1 (234) 567-890</p>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-3">
+                            <div class="contact-icon-box">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold">Location</h5>
+                                <p class="text-muted mb-0">San Francisco, CA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-lg-7">
+                    <form class="contact-form">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control" placeholder="Subject">
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary px-5 py-3">
+                                    Send Message <i class="bi bi-send-fill ms-2"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-5">
+                    <h3>FlexBiz</h3>
+                    <p>Modern business template designed for startups, agencies, freelancers and growing companies.</p>
+                </div>
+
+                <div class="col-lg-2">
+                    <h5>Company</h5>
+                    <ul>
+                        <li><a href="about.html" class="text-decoration-none text-muted">About</a></li>
+                        <li><a href="services.html" class="text-decoration-none text-muted">Services</a></li>
+                        <li><a href="portfolio.html" class="text-decoration-none text-muted">Portfolio</a></li>
+                        <li><a href="contact.html" class="text-decoration-none text-muted">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2">
+                    <h5>Resources</h5>
+                    <ul>
+                        <li><a href="faq.html" class="text-decoration-none text-muted">FAQ</a></li>
+                        <li><a href="#" class="text-decoration-none text-muted">Blog</a></li>
+                        <li><a href="#" class="text-decoration-none text-muted">Support</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3">
+                    <h5>Contact</h5>
+                    <p>hello@flexbiz.com</p>
+                    <p>+1 (234) 567-890</p>
+                </div>
+            </div>
+
+            <hr>
+            <p class="text-center mb-0">© 2026 FlexBiz. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/darkmode.js"></script>
+</body>
+</html>

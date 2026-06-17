@@ -1,0 +1,167 @@
+/* ============================================================
+   FLEXBIZ - Responsive Stylesheet
+   ============================================================ */
+
+/* ========== TABLET (max-width: 992px) ========== */
+@media (max-width: 992px) {
+    
+    /* Hero */
+    .hero-title {
+        font-size: 48px;
+    }
+    .hero-card {
+        margin-top: 40px;
+    }
+    .hero-buttons .btn {
+        display: block;
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    .hero-buttons .btn+.btn {
+        margin-left: 0 !important;
+    }
+
+    /* Section title */
+    .section-title {
+        font-size: 36px;
+    }
+
+    /* CTA */
+    .cta-box h2 {
+        font-size: 36px;
+    }
+
+    /* Trusted logos */
+    .trusted-logos {
+        gap: 30px;
+    }
+
+    /* Dashboard grid tetap 2 kolom di tablet */
+    .dashboard-content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+    .stat-box {
+        padding: 20px;
+    }
+    .stat-box h3 {
+        font-size: 32px;
+    }
+
+    /* Footer */
+    .footer-section .row>div {
+        margin-bottom: 30px;
+    }
+}
+
+/* ========== MOBILE (max-width: 768px) ========== */
+@media (max-width: 768px) {
+    
+    /* Hero */
+    .hero-title {
+        font-size: 38px;
+    }
+    .hero-description {
+        font-size: 16px;
+        max-width: 100%;
+    }
+    .hero-social-proof {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* Dashboard jadi 1 kolom */
+    .dashboard-content {
+        grid-template-columns: 1fr;
+    }
+
+    /* About */
+    .about-section .row {
+        flex-direction: column-reverse;
+    }
+    .about-image img {
+        margin-bottom: 30px;
+    }
+
+    /* Portfolio */
+    .portfolio-card img {
+        height: 200px;
+    }
+
+    /* FAQ */
+    .faq-floating .accordion-button {
+        font-size: 16px;
+        padding: 18px 20px;
+    }
+    .faq-floating .accordion-body {
+        padding: 0 20px 20px;
+    }
+
+    /* Contact */
+    .contact-info {
+        margin-bottom: 30px;
+    }
+
+    /* CTA */
+    .cta-box {
+        padding: 50px 25px;
+    }
+    .cta-box h2 {
+        font-size: 30px;
+    }
+}
+
+/* ========== SMALL PHONE (max-width: 576px) ========== */
+@media (max-width: 576px) {
+    
+    /* Hero */
+    .hero-title {
+        font-size: 32px;
+    }
+    .hero-badge {
+        font-size: 12px;
+        padding: 6px 14px;
+    }
+
+    /* Section title */
+    .section-title {
+        font-size: 28px;
+    }
+
+    /* Stats card */
+    .stat-card h2 {
+        font-size: 32px;
+    }
+    .stat-card p {
+        font-size: 14px;
+    }
+
+    /* Pricing */
+    .pricing-card {
+        padding: 30px 25px;
+    }
+    .pricing-card h2 {
+        font-size: 36px;
+    }
+
+    /* Trusted logos */
+    .trusted-logos span {
+        font-size: 18px;
+    }
+    .trusted-logos {
+        gap: 20px;
+    }
+
+    /* CTA */
+    .cta-box {
+        padding: 40px 20px;
+    }
+    .cta-box h2 {
+        font-size: 28px;
+    }
+
+    /* Footer */
+    .footer-section {
+        padding: 60px 0 25px;
+    }
+}
